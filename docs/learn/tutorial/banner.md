@@ -128,7 +128,7 @@ return (
         <Col span={24}>
           <p>周免英雄</p>
           <div>
-            {freeheros.map((data,index) => {
+            {freeHeros.map((data,index) => {
               return <FreeHeroItem data={data} itemHover={itemHover} onItemHover={onItemHover} thisIndex={index} key={index}/>
             })}
           </div>
